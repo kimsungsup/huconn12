@@ -55,13 +55,13 @@ function MainPage() {
 
           <div className="section2-img">
             <img
-              src="/assets/Main/section2-human.png"
-              srcSet="/assets/Main/section2-human@2x.png 2x, /assets/Main/section2-human@3x.png 3x"
+              src="/assets/main/section2-human.png"
+              srcSet="/assets/main/section2-human@2x.png 2x, /assets/main/section2-human@3x.png 3x"
               alt="img"
             />
 
             <div className="back-icon">
-              <img src="/assets/Main/section2-back.svg" alt="icon" />
+              <img src="/assets/main/section2-back.svg" alt="icon" />
             </div>
           </div>
         </div>
@@ -145,20 +145,20 @@ function MainPage() {
 
                     <img
                       className="img-1"
-                      src="/assets/Main/section3-2-1.png"
-                      srcSet="/assets/Main/section3-2-1@2x.png 2x, /assets/Main/section3-2-1@3x.png 3x"
+                      src="/assets/main/section3-2-1.png"
+                      srcSet="/assets/main/section3-2-1@2x.png 2x, /assets/main/section3-2-1@3x.png 3x"
                       alt="img"
                     />
                     <img
                       className="img-2"
-                      src="/assets/Main/section3-2-2.png"
-                      srcSet="/assets/Main/section3-2-2@2x.png 2x, /assets/Main/section3-2-2@3x.png 3x"
+                      src="/assets/main/section3-2-2.png"
+                      srcSet="/assets/main/section3-2-2@2x.png 2x, /assets/main/section3-2-2@3x.png 3x"
                       alt="img"
                     />
                     <img
                       className="img-3"
-                      src="/assets/Main/section3-2-3.png"
-                      srcSet="/assets/Main/section3-2-3@2x.png 2x, /assets/Main/section3-2-3@3x.png 3x"
+                      src="/assets/main/section3-2-3.png"
+                      srcSet="/assets/main/section3-2-3@2x.png 2x, /assets/main/section3-2-3@3x.png 3x"
                       alt="img"
                     />
                   </>
@@ -204,7 +204,7 @@ function MainPage() {
 
             <div className="mail-box">
               <div className="mail">
-                <img src="/assets/Main/mail.svg" alt="icon" />
+                <img src="/assets/main/mail.svg" alt="icon" />
                 <div className="text font-type">MAIL</div>
               </div>
 

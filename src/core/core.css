@@ -46,24 +46,41 @@ textarea {
   border: 0;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   resize: none;
   font-family: "pretendard", sans-serif;
   background-color: transparent;
   color: white;
 }
-input::-moz-placeholder, p::-moz-placeholder, textarea::-moz-placeholder {
+
+input::-webkit-input-placeholder,
+p::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
   font-family: "pretendard", sans-serif;
   color: #949494;
   font-weight: 400;
   font-size: 16px;
 }
-input:-ms-input-placeholder, p:-ms-input-placeholder, textarea:-ms-input-placeholder {
+
+input:-ms-input-placeholder,
+p:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
   font-family: "pretendard", sans-serif;
   color: #949494;
   font-weight: 400;
   font-size: 16px;
 }
+
+input::-ms-input-placeholder,
+p::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+  font-family: "pretendard", sans-serif;
+  color: #949494;
+  font-weight: 400;
+  font-size: 16px;
+}
+
 input::placeholder,
 p::placeholder,
 textarea::placeholder {
@@ -72,6 +89,7 @@ textarea::placeholder {
   font-weight: 400;
   font-size: 16px;
 }
+
 input:focus,
 p:focus,
 textarea:focus {
@@ -87,7 +105,8 @@ textarea:focus {
   scrollbar-width: none;
   -webkit-font-smoothing: antialiased;
   -ms-overflow-style: none;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: "pretendard", sans-serif !important;
 }
 
@@ -99,4 +118,5 @@ textarea:focus {
 .font-type2 {
   font-weight: 400;
   font-family: "Montserrat", sans-serif !important;
-}/*# sourceMappingURL=core.css.map */
+}
+/*# sourceMappingURL=core.css.map */

@@ -2,6 +2,7 @@
   .main-page {
     background-color: black;
     height: 5788px;
+
     .wrapper {
       width: 1146px;
       margin: 0 auto;
@@ -13,7 +14,7 @@
       width: 1440px;
       margin: 0 auto;
 
-      & > .section1-title {
+      &>.section1-title {
         top: 0;
         left: 50%;
         transform: translate(-50%, 0%);
@@ -21,22 +22,22 @@
         position: absolute;
         text-align: center;
         padding-top: 211px;
-        & > .title {
+
+        &>.title {
           font-weight: 700;
           font-size: 32px;
           line-height: 130%;
 
-          & > span {
-            background: linear-gradient(
-              127.07deg,
-              #03ffbe 14.31%,
-              #1c48ff 85.68%
-            );
+          &>span {
+            background: linear-gradient(127.07deg,
+                #03ffbe 14.31%,
+                #1c48ff 85.68%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
           }
         }
-        & > .sub {
+
+        &>.sub {
           margin-top: 8px;
           font-weight: 400;
           font-size: 24px;
@@ -47,42 +48,43 @@
     .section2 {
       height: 819px;
 
-      & > .section2-wrapper {
+      &>.section2-wrapper {
         position: relative;
         display: flex;
 
         padding-top: 165px;
-        & > .section2-title {
+
+        &>.section2-title {
           width: 450px;
-          & > .title {
+
+          &>.title {
             margin-bottom: 12px;
             font-weight: 700;
             font-size: 20px;
             width: 80px;
-            background: linear-gradient(
-              127.07deg,
-              #03ffbe 14.31%,
-              #1c48ff 85.68%
-            );
+            background: linear-gradient(127.07deg,
+                #03ffbe 14.31%,
+                #1c48ff 85.68%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
           }
 
-          & > .sub {
+          &>.sub {
             font-weight: 700;
             font-size: 32px;
             line-height: 140%;
             margin-bottom: 12px;
           }
-          & > .text {
+
+          &>.text {
             font-weight: 400;
             font-size: 14px;
             line-height: 160%;
           }
         }
 
-        & > .section2-img {
-          & > img {
+        &>.section2-img {
+          &>img {
             top: 218px;
             left: 653px;
             position: absolute;
@@ -91,7 +93,7 @@
             height: 479px;
           }
 
-          & > .back-icon {
+          &>.back-icon {
             margin-left: 223px;
             padding-top: 78px;
           }
@@ -107,65 +109,65 @@
       position: relative;
       padding-top: 158px;
 
-      & > .section3-back {
+      &>.section3-back {
         position: absolute;
         top: 0;
         width: 1440px;
         background-image: url(/public/assets/Main/section3-back.png);
-        background-image: -webkit-image-set(
-          url(/public/assets/Main/section3-back.png) 1x,
-          url(/public/assets/Main/section3-back@2x.png) 2x,
-          url(/public/assets/Main/section3-back@3x.png) 3x
-        );
+        background-image: -webkit-image-set(url(/public/assets/Main/section3-back.png) 1x,
+            url(/public/assets/Main/section3-back@2x.png) 2x,
+            url(/public/assets/Main/section3-back@3x.png) 3x);
 
         height: 776px;
         background-repeat: no-repeat;
         background-size: cover;
       }
 
-      & > .section3-wrapper {
+      &>.section3-wrapper {
         width: 1146px;
         margin: 0 auto;
-        & > .section3-title {
+
+        &>.section3-title {
           margin-bottom: 16px;
           width: 44px;
           font-weight: 700;
           font-size: 20px;
-          background: linear-gradient(
-            127.07deg,
-            #03ffbe 14.31%,
-            #1c48ff 85.68%
-          );
+          background: linear-gradient(127.07deg,
+              #03ffbe 14.31%,
+              #1c48ff 85.68%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
 
-        & > .section3-title-wrapper {
+        &>.section3-title-wrapper {
           display: flex;
           gap: 15px;
 
-          & > .left {
-            & > .title {
+          &>.left {
+            &>.title {
               font-weight: 700;
               font-size: 32px;
               line-height: 150%;
             }
-            & > .sub {
+
+            &>.sub {
               font-weight: 700;
               font-size: 18px;
               color: #949494;
             }
           }
 
-          & > .right {
+          &>.right {
             margin-top: 6px;
-            & > .title {
+
+            &>.title {
               font-weight: 400;
               font-size: 14px;
               line-height: 160%;
               margin-bottom: 11px;
             }
-            & > .sub {
+
+            &>.sub {
               font-weight: 400;
               font-size: 14px;
               line-height: 160%;
@@ -174,62 +176,62 @@
           }
         }
 
-        & > .section3-content {
+        &>.section3-content {
           margin-bottom: 316px;
           margin-top: 87px;
           display: grid;
           grid-template-columns: repeat(2, 559px);
           gap: 28px;
 
-          & > .box {
+          &>.box {
             position: relative;
             width: 559px;
             height: 669px;
             background: #292929;
 
-            & > .box-wrapper {
+            &>.box-wrapper {
               padding: 45px 47px;
-              & > .title {
+
+              &>.title {
                 margin-bottom: 4px;
                 font-weight: 400;
                 font-size: 18px;
               }
 
-              & > .text {
+              &>.text {
                 margin-bottom: 4px;
                 width: 330px;
                 font-weight: 700;
                 font-size: 30px;
-                background: linear-gradient(
-                  127.07deg,
-                  #03ffbe 14.31%,
-                  #1c48ff 85.68%
-                );
+                background: linear-gradient(127.07deg,
+                    #03ffbe 14.31%,
+                    #1c48ff 85.68%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
               }
 
-              & > .sub {
+              &>.sub {
                 margin-bottom: 16px;
                 font-weight: 700;
                 font-size: 20px;
               }
 
-              & > .english {
+              &>.english {
                 margin-bottom: 7px;
                 font-weight: 400;
                 font-size: 13px;
                 line-height: 160%;
               }
 
-              & > .bottom {
+              &>.bottom {
                 font-weight: 400;
                 font-size: 14px;
                 color: #949494;
                 line-height: 160%;
               }
             }
-            & > img {
+
+            &>img {
               position: absolute;
               width: 559px;
               height: 322px;
@@ -238,75 +240,73 @@
           }
         }
 
-        & > .section3_2 {
-          & > .title {
+        &>.section3_2 {
+          &>.title {
             margin-bottom: 16px;
             font-weight: 700;
             font-size: 20px;
             width: 104px;
-            background: linear-gradient(
-              127.07deg,
-              #03ffbe 14.31%,
-              #1c48ff 85.68%
-            );
+            background: linear-gradient(127.07deg,
+                #03ffbe 14.31%,
+                #1c48ff 85.68%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
           }
-          & > .sub {
+
+          &>.sub {
             font-size: 32px;
             line-height: 150%;
           }
 
-          & > .text {
+          &>.text {
             color: #949494;
             font-weight: 700;
             font-size: 18px;
             margin-bottom: 39px;
           }
 
-          & > .section3-content {
+          &>.section3-content {
             display: grid;
             grid-template-columns: repeat(1, 1147px);
             gap: 24px;
             position: relative;
 
-            & > .box {
+            &>.box {
               z-index: 10;
-              background: linear-gradient(
-                90deg,
-                #292929 39.33%,
-                rgba(41, 41, 41, 0) 88.85%
-              );
+              background: linear-gradient(90deg,
+                  #292929 39.33%,
+                  rgba(41, 41, 41, 0) 88.85%);
 
               padding: 44px 47px;
 
               width: 1147px;
               height: 337px;
 
-              & > .box-wrapper {
-                & > .title {
+              &>.box-wrapper {
+                &>.title {
                   width: 125px;
                   font-size: 18px;
                   margin-bottom: 4px;
-                  background: linear-gradient(
-                    127.07deg,
-                    #03ffbe 14.31%,
-                    #1c48ff 85.68%
-                  );
+                  background: linear-gradient(127.07deg,
+                      #03ffbe 14.31%,
+                      #1c48ff 85.68%);
                   -webkit-background-clip: text;
                   -webkit-text-fill-color: transparent;
                 }
-                & > .text {
+
+                &>.text {
                   font-size: 28px;
                   margin-bottom: 16px;
                 }
-                & > .english {
+
+                &>.english {
                   font-size: 14px;
                   line-height: 160%;
                   font-weight: 400;
                   margin-bottom: 4px;
                 }
-                & > .bottom {
+
+                &>.bottom {
                   font-weight: 400;
                   font-size: 14px;
                   color: #949494;
@@ -314,21 +314,24 @@
                 }
               }
             }
-            & > .img-1 {
+
+            &>.img-1 {
               top: 1px;
               right: 0;
               width: 784px;
               height: 335px;
               position: absolute;
             }
-            & > .img-2 {
+
+            &>.img-2 {
               top: 361px;
               right: 0;
               width: 784px;
               height: 335px;
               position: absolute;
             }
-            & > .img-3 {
+
+            &>.img-3 {
               top: 722px;
               right: 0;
               width: 784px;
@@ -344,40 +347,40 @@
       width: 1440px;
       margin: 0 auto;
       background-image: url(/public/assets/Main/section4-back.png);
-      background-image: -webkit-image-set(
-        url(/public/assets/Main/section4-back.png) 1x,
-        url(/public/assets/Main/section4-back@2x.png) 2x,
-        url(/public/assets/Main/section4-back@3x.png) 3x
-      );
+      background-image: -webkit-image-set(url(/public/assets/Main/section4-back.png) 1x,
+          url(/public/assets/Main/section4-back@2x.png) 2x,
+          url(/public/assets/Main/section4-back@3x.png) 3x);
 
       height: 535px;
       background-repeat: no-repeat;
       background-size: cover;
 
-      & > .section4-wrapper {
+      &>.section4-wrapper {
         padding-top: 138px;
         text-align: center;
 
-        & > .title {
+        &>.title {
           margin-bottom: 8px;
           font-weight: 700;
           font-size: 32px;
           line-height: 150%;
         }
-        & > .sub {
+
+        &>.sub {
           margin-bottom: 24px;
           font-weight: 700;
           font-size: 24px;
           line-height: 150%;
         }
 
-        & > .english {
+        &>.english {
           margin-bottom: 8px;
           font-weight: 400;
           font-size: 14px;
           line-height: 160%;
         }
-        & > .text {
+
+        &>.text {
           font-weight: 400;
           font-size: 14px;
           line-height: 160%;
@@ -391,38 +394,40 @@
       margin: 0 auto;
       height: 619px;
 
-      & > .section5-wrapper {
+      &>.section5-wrapper {
         width: 1146px;
         margin: 0 auto;
-        & > .section5-back {
+
+        &>.section5-back {
           position: absolute;
           width: 1157px;
           margin: 0 auto;
           right: 0;
           background-image: url(/public/assets/Main/section5-back.png);
-          background-image: -webkit-image-set(
-            url(/public/assets/Main/section5-back.png) 1x,
-            url(/public/assets/Main/section5-back@2x.png) 2x,
-            url(/public/assets/Main/section5-back@3x.png) 3x
-          );
+          background-image: -webkit-image-set(url(/public/assets/Main/section5-back.png) 1x,
+              url(/public/assets/Main/section5-back@2x.png) 2x,
+              url(/public/assets/Main/section5-back@3x.png) 3x);
           height: 619px;
           background-repeat: no-repeat;
         }
-        & > .section5-title {
+
+        &>.section5-title {
           padding-top: 200px;
           position: absolute;
-          & > .title {
+
+          &>.title {
             font-weight: 700;
             font-size: 40px;
             margin-bottom: 12px;
           }
-          & > .sub {
+
+          &>.sub {
             font-weight: 700;
             font-size: 24px;
             margin-bottom: 24px;
           }
 
-          & > .mail-box {
+          &>.mail-box {
             padding: 0px 25px 0px 15px;
             display: flex;
             align-items: center;
@@ -431,21 +436,23 @@
             background-color: #292929;
             border-radius: 10px;
 
-            & > .mail {
+            &>.mail {
               margin-right: 147px;
               display: flex;
               align-items: center;
-              & > img {
+
+              &>img {
                 margin-right: 7px;
                 width: 32px;
               }
-              & > .text {
+
+              &>.text {
                 font-weight: 700;
                 font-size: 16px;
               }
             }
 
-            & > .email {
+            &>.email {
               font-size: 18px;
             }
           }
