@@ -7,6 +7,7 @@ function MainPage() {
         <img
           src="/assets/main/section1-back.png"
           srcSet="/assets/main/section1-back@2x.png 2x, /assets/main/section1-back@3x.png 3x"
+          alt="img"
         />
         <div className="section1-title">
           <div className="title font-type">
@@ -297,10 +298,6 @@ const section3_2 = [
         자동화 장비 개발 및 ISP, MES, ERP, SCM 기획
       </>
     ),
-
-    img: "/assets/main/section3-2-1.png",
-    srcSet:
-      "/assets/main/section3-2-1@2x.png 2x, /assets/main/section3-2-1@3x.png 3x",
   },
   {
     title: "BUSINESS 02",
@@ -309,43 +306,27 @@ const section3_2 = [
 
     english: (
       <>
-        For efficient smart factories and smart farms
+        New department and department reorganization consulting,
         <br />
-        Automation equipment development and ISP, MES, ERP, SCM planning
+        Education and training equipment planning and manufacturing, education
+        support
       </>
     ),
 
     bottom: (
       <>
-        효율적인 스마트공장 및 스마트팜을 위한 <br />
-        자동화 장비 개발 및 ISP, MES, ERP, SCM 기획
+        신설학과 및 학과개편 컨설팅, <br />
+        교육훈련 장비 기획 및 제조, 교육지원
       </>
     ),
-    img: "/assets/main/section3-2-1.png",
-    srcSet:
-      "/assets/main/section3-2-1@2x.png 2x, /assets/main/section3-2-1@3x.png 3x",
   },
   {
     title: "BUSINESS 03",
 
     text: <>ODM</>,
 
-    english: (
-      <>
-        For efficient smart factories and smart farms
-        <br />
-        Automation equipment development and ISP, MES, ERP, SCM planning
-      </>
-    ),
+    english: <>idea product shape, Prototyping support</>,
 
-    bottom: (
-      <>
-        효율적인 스마트공장 및 스마트팜을 위한 <br />
-        자동화 장비 개발 및 ISP, MES, ERP, SCM 기획
-      </>
-    ),
-    img: "/assets/main/section3-2-1.png",
-    srcSet:
-      "/assets/main/section3-2-1@2x.png 2x, /assets/main/section3-2-1@3x.png 3x",
+    bottom: <>아이디어 제품 형상화, 시제품 제작 지원</>,
   },
 ];
