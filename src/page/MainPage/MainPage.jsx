@@ -243,9 +243,9 @@ const section3 = [
         이동형 충전 배터리 개발을 수행합니다.
       </>
     ),
-    img: "/assets/Main/section3-img1.png",
+    img: "/assets/main/section3-img1.png",
     srcSet:
-      "/assets/Main/section3-img1@2x.png 2x, /assets/Main/section3-img1@3x.png 3x",
+      "/assets/main/section3-img1@2x.png 2x, /assets/main/section3-img1@3x.png 3x",
   },
 
   {
@@ -271,9 +271,9 @@ const section3 = [
         차량내 네트워크 기술 개발을 수행합니다.
       </>
     ),
-    img: "/assets/Main/section3-img2.png",
+    img: "/assets/main/section3-img2.png",
     srcSet:
-      "/assets/Main/section3-img2@2x.png 2x, /assets/Main/section3-img2@3x.png 3x",
+      "/assets/main/section3-img2@2x.png 2x, /assets/main/section3-img2@3x.png 3x",
   },
 ];
 
@@ -298,9 +298,9 @@ const section3_2 = [
       </>
     ),
 
-    img: "/assets/Main/section3-2-1.png",
+    img: "/assets/main/section3-2-1.png",
     srcSet:
-      "/assets/Main/section3-2-1@2x.png 2x, /assets/Main/section3-2-1@3x.png 3x",
+      "/assets/main/section3-2-1@2x.png 2x, /assets/main/section3-2-1@3x.png 3x",
   },
   {
     title: "BUSINESS 02",
@@ -321,9 +321,9 @@ const section3_2 = [
         자동화 장비 개발 및 ISP, MES, ERP, SCM 기획
       </>
     ),
-    img: "/assets/Main/section3-2-1.png",
+    img: "/assets/main/section3-2-1.png",
     srcSet:
-      "/assets/Main/section3-2-1@2x.png 2x, /assets/Main/section3-2-1@3x.png 3x",
+      "/assets/main/section3-2-1@2x.png 2x, /assets/main/section3-2-1@3x.png 3x",
   },
   {
     title: "BUSINESS 03",
@@ -344,8 +344,8 @@ const section3_2 = [
         자동화 장비 개발 및 ISP, MES, ERP, SCM 기획
       </>
     ),
-    img: "/assets/Main/section3-2-1.png",
+    img: "/assets/main/section3-2-1.png",
     srcSet:
-      "/assets/Main/section3-2-1@2x.png 2x, /assets/Main/section3-2-1@3x.png 3x",
+      "/assets/main/section3-2-1@2x.png 2x, /assets/main/section3-2-1@3x.png 3x",
   },
 ];
