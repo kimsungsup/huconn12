@@ -26,7 +26,7 @@ function Header() {
       <div className={`header `}>
         <div className={`wrapper ${HeaderState ? "black" : ""}`}>
           <div className="header-wrapper">
-            <img src="/assets/Header/logo.svg" alt="logo" />
+            <img src="/assets/header/logo.svg" alt="logo" />
 
             <ul className="header-menu">
               <li>ABOUT</li>
