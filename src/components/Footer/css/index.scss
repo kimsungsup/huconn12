@@ -1,0 +1,48 @@
+#root {
+  .footer {
+    background: #292929;
+    width: 100%;
+    height: 246px;
+
+    & > .footer-wrapper {
+      width: 1440px;
+      margin: 0 auto;
+      padding: 67px 56px;
+      & > .footer-logo {
+        width: 122px;
+        margin-bottom: 14px;
+      }
+
+      & > .footer-content {
+        display: flex;
+
+        & > .footer-left {
+          width: 320px;
+          margin-right: 26px;
+          & > .text {
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 20px;
+          }
+        }
+
+        & > .footer-right {
+          padding-top: 2px;
+          & > .index {
+            margin-bottom: 6px;
+            display: flex;
+
+            & > img {
+              margin-right: 5px;
+              width: 16px;
+            }
+            & > .text {
+              font-weight: 400;
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

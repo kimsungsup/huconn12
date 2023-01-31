@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "steadee-pf"
+  },
+  "targets": {
+    "steadee-pf": {
+      "hosting": {
+        "client": [
+          "huconn-57"
+        ]
+      }
+    }
+  }
+}

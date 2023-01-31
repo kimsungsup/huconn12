@@ -1,0 +1,41 @@
+#root .footer {
+  background: #292929;
+  width: 100%;
+  height: 246px;
+}
+#root .footer > .footer-wrapper {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 67px 56px;
+}
+#root .footer > .footer-wrapper > .footer-logo {
+  width: 122px;
+  margin-bottom: 14px;
+}
+#root .footer > .footer-wrapper > .footer-content {
+  display: flex;
+}
+#root .footer > .footer-wrapper > .footer-content > .footer-left {
+  width: 320px;
+  margin-right: 26px;
+}
+#root .footer > .footer-wrapper > .footer-content > .footer-left > .text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+}
+#root .footer > .footer-wrapper > .footer-content > .footer-right {
+  padding-top: 2px;
+}
+#root .footer > .footer-wrapper > .footer-content > .footer-right > .index {
+  margin-bottom: 6px;
+  display: flex;
+}
+#root .footer > .footer-wrapper > .footer-content > .footer-right > .index > img {
+  margin-right: 5px;
+  width: 16px;
+}
+#root .footer > .footer-wrapper > .footer-content > .footer-right > .index > .text {
+  font-weight: 400;
+  font-size: 13px;
+}/*# sourceMappingURL=index.css.map */

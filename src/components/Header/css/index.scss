@@ -1,0 +1,46 @@
+.header {
+  width: 1440px;
+  margin: 0 auto;
+
+  & > .wrapper {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    width: 1440px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    padding: 0 56px;
+
+    & > .header-wrapper {
+      display: flex;
+      align-items: center;
+
+      & > img {
+        margin-right: 50px;
+        width: 122px;
+        cursor: pointer;
+      }
+
+      & > .header-menu {
+        gap: 32px;
+        display: flex;
+        align-items: center;
+        color: #949494;
+        & > li {
+          cursor: pointer;
+          font-weight: 700;
+          font-size: 14px;
+        }
+        & > li:hover {
+          transition: 0.2s ease-in-out;
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}
+
+.black {
+  background-color: black;
+}
