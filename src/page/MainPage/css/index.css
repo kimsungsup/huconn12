@@ -89,8 +89,7 @@
   position: absolute;
   top: 0;
   width: 1440px;
-  background-image: url(/public/assets/main/section3-back.png);
-  background-image: -webkit-image-set(url(/public/assets/main/section3-back.png) 1x, url(/public/assets/main/section3-back@2x.png) 2x, url(/public/assets/main/section3-back@3x.png) 3x);
+  background-image: -webkit-image-set(url(../img/section3-back.png) 1x, url(../img/section3-back@2x.png) 2x, url(../img/section3-back@3x.png) 3x);
   height: 776px;
   background-repeat: no-repeat;
   background-size: cover;

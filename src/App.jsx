@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import MainPage from "./page/MainPage/MainPage";
 import "./core/core.css";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import MainPage from "./page/MainPage/MainPage";
 
 function App() {
   return (
