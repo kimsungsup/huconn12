@@ -194,21 +194,17 @@ function MainPage() {
           </div>
         </div>
       </div>
-
       <div className="section5">
         <div className="section5-wrapper">
           <div className="section5-back"></div>
-
           <div className="section5-title">
             <div className="title font-type">CONTACT US</div>
             <div className="sub">궁금하신 점이 있나요?</div>
-
             <div className="mail-box">
               <div className="mail">
                 <img src="/assets/main/mail.svg" alt="icon" />
                 <div className="text font-type">MAIL</div>
               </div>
-
               <div className="email font-type2">huconn@huconn.co.kr</div>
             </div>
           </div>

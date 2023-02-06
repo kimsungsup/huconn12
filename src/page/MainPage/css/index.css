@@ -269,8 +269,7 @@
 #root .main-page .section4 {
   width: 1440px;
   margin: 0 auto;
-  background-image: url(/public/assets/main/section4-back.png);
-  background-image: -webkit-image-set(url(/public/assets/main/section4-back.png) 1x, url(/public/assets/main/section4-back@2x.png) 2x, url(/public/assets/main/section4-back@3x.png) 3x);
+  background-image: -webkit-image-set(url(../img/section4-back.png) 1x, url(../img/section4-back@2x.png) 2x, url(../img/section4-back@3x.png) 3x);
   height: 535px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -317,8 +316,7 @@
   width: 1157px;
   margin: 0 auto;
   right: 0;
-  background-image: url(/public/assets/main/section5-back.png);
-  background-image: -webkit-image-set(url(/public/assets/main/section5-back.png) 1x, url(/public/assets/main/section5-back@2x.png) 2x, url(/public/assets/main/section5-back@3x.png) 3x);
+  background-image: -webkit-image-set(url(../img/section5-back.png) 1x, url(../img/section5-back@2x.png) 2x, url(../img/section5-back@3x.png) 3x);
   height: 619px;
   background-repeat: no-repeat;
 }
