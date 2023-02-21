@@ -56,8 +56,8 @@ function MainPage() {
 
           <div className="section2-img">
             <img
-              src="/assets/main/section2-human.png"
-              srcSet="/assets/main/section2-human@2x.png 2x, /assets/main/section2-human@3x.png 3x"
+              src="/assets/main/section2-main-img.png"
+              srcSet="/assets/main/section2-main-img@2x.png 2x, /assets/main/section2-main-img@3x.png 3x"
               alt="img"
             />
 
